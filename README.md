@@ -1,7 +1,6 @@
-```markdown
-# Project Documentation
+- **Project Documentation**  
 
-## Overview
+- **Overview**  
 
 This project is a comprehensive implementation of a **NestJS** application featuring robust modules and functionalities, including:
 
@@ -9,27 +8,26 @@ This project is a comprehensive implementation of a **NestJS** application featu
 - **Projects Module**: Fully functional CRUD operations for managing projects, including support for pagination and role-based project visibility.  
 - **Tasks Module**: Task creation and management features with **Redis caching** for task summaries and analytics.  
 
----
 
-## Features and Endpoints
+- **Features and Endpoints**  
 
-### 1. User Module
+- **1. User Module**  
 
-#### Authentication and Authorization
+- **Authentication and Authorization**
 
 - **Sign Up**  
   - **Endpoint**: `POST /api/v1/auth/signup`  
   - Allows users to create a new account with a hashed password.  
 
-  **Request Body**:
-  ```json
+ - **Request Body**:
+  json
   {
     "fullName": "John Doe",
     "email": "john@example.com",
     "password": "password123",
     "role": "member"
   }
-  ```
+  
 
 - **Login**  
   - **Endpoint**: `POST /api/v1/auth/login`  
