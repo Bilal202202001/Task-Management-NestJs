@@ -1,6 +1,6 @@
-- **Project Documentation**  
+### Project Documentation
 
-- **Overview**  
+### Overview
 
 This project is a comprehensive implementation of a **NestJS** application featuring robust modules and functionalities, including:
 
@@ -9,9 +9,9 @@ This project is a comprehensive implementation of a **NestJS** application featu
 - **Tasks Module**: Task creation and management features with **Redis caching** for task summaries and analytics.  
 
 
-- **Features and Endpoints**  
+### Features and Endpoints**  
 
-- **1. User Module**  
+### 1. User Module**  
 
 - **Authentication and Authorization**
 
